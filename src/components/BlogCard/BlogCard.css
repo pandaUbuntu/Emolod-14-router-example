@@ -1,0 +1,33 @@
+.blog-card {
+  background: #1a1c1e;
+  border: 1px solid #333;
+  border-radius: 12px;
+  padding: 24px;
+  max-width: 600px;
+  margin: 20px auto;
+  text-align: center;
+  color: #fff; 
+  font-family: sans-serif;
+}
+
+.blog-title {
+  font-size: 24px;
+  margin: 0 0 12px;
+}
+
+.blog-date {
+  font-size: 14px;
+  color: #a1a1a1; 
+}
+
+.blog-description {
+  font-size: 16px;
+  line-height: 1.6;
+  margin: 20px 0;
+}
+
+.blog-link {
+  color: #58c4dc;
+  text-decoration: none;
+  font-weight: bold;
+}

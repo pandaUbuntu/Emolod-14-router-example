@@ -1,0 +1,24 @@
+.message {
+  padding: 8px;
+  margin-bottom: 4px;
+  border-radius: 4px;
+  background-color: #f0f0f0;
+}
+
+.message.owner {
+  background-color: #d1ffd1;
+}
+
+.message-author {
+  font-weight: bold;
+}
+
+.message-text {
+  margin-top: 2px;
+}
+
+.message-time {
+  font-size: 0.8em;
+  color: #666;
+  text-align: right;
+}
