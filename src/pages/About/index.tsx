@@ -1,6 +1,11 @@
+import { useAppSelector } from "../../hooks/redux";
 import Layout from "../Layout";
 
  const About = () => {
+
+  const userData = useAppSelector((state) => state.user);
+
+  
 
   return (
     <Layout title="Про нас">
